@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-11T15:41:18 IST" name="Surefire suite" finished-at="2022-08-11T15:41:47 IST" duration-ms="29122">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-08-11T15:41:18 IST" name="Surefire test" finished-at="2022-08-11T15:41:47 IST" duration-ms="29122">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" started-at="2022-08-11T15:41:18 IST" name="setUpClass" finished-at="2022-08-11T15:41:19 IST" duration-ms="697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1756f7cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" started-at="2022-08-11T15:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-11T15:41:44 IST" duration-ms="25398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify whether the search functionality is working fine"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the User listing functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" started-at="2022-08-11T15:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-11T15:41:41 IST" duration-ms="22782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify whether the total number of rows per page is 10 by default"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the User listing functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" started-at="2022-08-11T15:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-11T15:41:45 IST" duration-ms="26075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify whether the filter functionality is working fine"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the User listing functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" started-at="2022-08-11T15:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-11T15:41:43 IST" duration-ms="24444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" started-at="2022-08-11T15:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-11T15:41:40 IST" duration-ms="21482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the logout functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" started-at="2022-08-11T15:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-11T15:41:37 IST" duration-ms="18375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify whether all the user names are displayed in the users list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the User listing functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" started-at="2022-08-11T15:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-11T15:41:37 IST" duration-ms="18184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" started-at="2022-08-11T15:41:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-11T15:41:37 IST" duration-ms="18368" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality with a valid user app credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or passwoord.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or passwoord.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at stepDefinitions.LoginSteps.admin_gets_a_toast_message(LoginSteps.java:46)
+at ✽.Admin gets a toast message "Incorrect email or passwoord."(file:///C:/Users/Nihamathulla/eclipse-workspace/Sunlyt_Admin_Functional_Test/src/test/java/features/Login.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@1e04fa0a]" started-at="2022-08-11T15:41:45 IST" name="tearDownClass" finished-at="2022-08-11T15:41:47 IST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
